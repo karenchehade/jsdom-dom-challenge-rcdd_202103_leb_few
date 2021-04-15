@@ -9,9 +9,9 @@
   var playing=!0,
   timer=function(){
     return setInterval(function(){
-  var a=document.getElementById("counter"),
-  b=parseInt(a.innerText);
-  a.innerText=b+1
+  var counter=document.getElementById("counter"),
+  b=parseInt(counter.innerText);
+  counter.innerText=b+1
 },1000)}
   interval=timer()
   //-------------------------------------
