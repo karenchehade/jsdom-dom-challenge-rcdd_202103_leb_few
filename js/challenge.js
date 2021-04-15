@@ -17,9 +17,9 @@
   //-------------------------------------
 // const i = 1;
 // const num = document.getElementById('counter');
-// 
+//
 // function DOMContentLoaded() { "use strict";
-// 
+//
 //   setIntervalfunction () {
 //     if (i < 100) {
 //       i++;
