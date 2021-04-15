@@ -61,9 +61,8 @@ commentForm.addEventListener("submit",function(event){
 event.preventDefault();
     const commentsSection = document.querySelector(".comments");
     const commentAdded = document.createElement("p");
-    const commentInput = document.getElementById("comment-input").value;
-    console.log(commentInput);
-    commentAdded.innerText=commentInput;
+    const commentInput = document.getElementById("comment-input");
+    commentAdded.innerText=commentInput.value;
     commentsSection.appendChild(commentAdded);
     commentInput=" ";
 });
