@@ -47,7 +47,7 @@ pausebtn.addEventListener("click",function(){
     pausebtn.innerText="resume";
     pause=1;
   }
-  else{
+  else if(pause =1){
     interval=timer();
     pausebtn.innerText="pause";
   }
