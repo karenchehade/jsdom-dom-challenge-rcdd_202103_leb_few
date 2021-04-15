@@ -1,5 +1,5 @@
 "use strict";
-let  pause;
+let pause;
   const timer=function(){
     return setInterval(function(){
       pause=0;
@@ -7,7 +7,7 @@ let  pause;
   const countIn = parseInt(counter.innerText);
   counter.innerText=countIn + 1;
 },1000)}
-  let interval=timer();
+  //let interval=timer();
 
 //-----------------------------------------------
 const minus=document.getElementById("minus");
