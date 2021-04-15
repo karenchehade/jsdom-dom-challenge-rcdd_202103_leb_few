@@ -1,5 +1,5 @@
 "use strict";
-let  playing=0;
+let  pause=0;
   const timer=function(){
     return setInterval(function(){
   const counter=document.getElementById("counter");
