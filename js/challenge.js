@@ -51,7 +51,7 @@ pause=1;
     interval=timer();
     pausebtn.innerText="pause";
   }
-  
+
 });
 //-----------------------------------------------
 const commentForm=document.getElementById("comment-form");
