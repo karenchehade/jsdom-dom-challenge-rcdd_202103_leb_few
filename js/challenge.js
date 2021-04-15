@@ -6,10 +6,10 @@
 //   return c
 // }
 // return Array.from(a)}
-  var playing=!0,
+  const playing=0;
   timer=function(){
     return setInterval(function(){
-  var counter=document.getElementById("counter"),
+  const counter=document.getElementById("counter"),
   b=parseInt(counter.innerText);
   counter.innerText=b+1
 },1000)}
