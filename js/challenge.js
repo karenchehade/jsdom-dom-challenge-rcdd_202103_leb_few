@@ -1,16 +1,15 @@
-var i = 1;
-var num = document.getElementById('counter');
+const i = 1;
+const num = document.getElementById('counter');
 
 function start() {
-  setInterval(increase, 1000);
-}
-
-function increase() {
+  setIntervalfunction () {
     if (i < 100) {
       i++;
       num.innerText = i;
     }
+  }, 1000);
 }
+
 // let s = 0;
 //       const timer = setInterval(function () {
 //          const incre=document.getElementById("counter");
