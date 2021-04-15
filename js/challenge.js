@@ -64,7 +64,7 @@ event.preventDefault();
     const commentInput = document.getElementById("comment-input").value;
     console.log(commentInput);
     commentAdded.innerText=commentInput;
-    
+
     commentsSection.appendChild(commentAdded);
 commentInput=" ";
 });
