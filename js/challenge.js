@@ -9,7 +9,7 @@
 //           const temp = parseInt(incre.val());
 //           incre.innerHTML = `${temp + 1} `;
 //           return 0;
-//       }, 360);
+//       }, 1000);
 //-----------------------------------------------
 const minus=document.getElementById("minus");
 
