@@ -39,18 +39,18 @@ heart.addEventListener("click",function(){
 })
 //-----------------------------------------------
 
-const pause=document.getElementById("pause");
+const pausebtn=document.getElementById("pause");
 
-// pause.addEventListener("click",function(){
-//   if(timer==0){
-//     clearInterval(interval);
-//   this.innerText="resume";
-//   }
-//   else(timer==1){
-//     interval=timer();
-//     this.innerText="pause";
-//   }
-// });
+pausebtn.addEventListener("click",function(){
+  if(pause==0){
+    clearInterval(interval);
+  pausebtn.innerText="resume";
+  }
+  else(timer==1){
+    interval=timer();
+    pausebtn.innerText="pause";
+  }
+});
 
 //-----------------------------------------------
 const commentForm=document.getElementById("comment-form");
