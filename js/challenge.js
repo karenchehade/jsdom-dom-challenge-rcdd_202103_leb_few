@@ -3,13 +3,13 @@
 //     b=parseInt(incre.innerText);
 //     incre.innerText=b+1
 //   }
-// let s = 0;
-//       const timer = setInterval(function () {
-//          const incre=document.getElementById("counter");
-//           const temp = parseInt(incre.val());
-//           incre.innerHTML = `${temp + 1} `;
-//           return 0;
-//       }, 1000);
+let s = 0;
+      const timer = setInterval(function () {
+         const incre=document.getElementById("counter");
+          const temp = parseInt(incre.val());
+          incre.innerHTML = `${temp + 1} `;
+          return 0;
+      }, 1000);
 //-----------------------------------------------
 const minus=document.getElementById("minus");
 
@@ -57,12 +57,13 @@ const pause=document.getElementById("pause");
 //-----------------------------------------------
 const commentForm=document.getElementById("comment-form");
 
-commentForm.addEventListener("submit",function(){
+commentForm.addEventListener("submit",function(event){
+event.preventDefault();
     const commentsSection = document.querySelector(".comments");
     const commentAdded = document.createElement("p");
     const commentInput = document.getElementById("comment-input").value;
     console.log(commentInput);
     commentAdded.innerText=commentInput;
     commentsSection.appendChild(commentAdded);
-//commentInput.value=" ";
+commentInput.value=" ";
 });
