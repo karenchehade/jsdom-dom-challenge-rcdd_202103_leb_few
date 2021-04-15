@@ -9,7 +9,7 @@
   var playing=!0;
   timer=function(){
     return setInterval(function(){
-  let counter=document.getElementById("counter"),
+  const counter=document.getElementById("counter"),
   var countIn = parseInt(counter.innerText);
   counter.innerText=countIn + 1;
 },1e3)}
