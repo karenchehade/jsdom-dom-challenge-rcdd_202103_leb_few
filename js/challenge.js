@@ -1,12 +1,12 @@
 "use strict"; // fires when the initial HTML document has been completely loaded
 let pause;
-  const timer=function(){
+const timer=function(){
     return setInterval(function(){
-      pause=0;
-  const counter=document.getElementById("counter");
-  const countIn = parseInt(counter.innerText);
-  counter.innerText=countIn + 1;
-  },1000)}
+    pause=0;
+    const counter=document.getElementById("counter");
+    const countIn = parseInt(counter.innerText);
+    counter.innerText=countIn + 1;
+},1000)}
   let interval=timer();
 
 //-----------------------------------------------
