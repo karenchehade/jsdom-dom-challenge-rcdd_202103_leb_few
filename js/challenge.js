@@ -64,6 +64,7 @@ event.preventDefault();
     const commentInput = document.getElementById("comment-input").value;
     console.log(commentInput);
     commentAdded.innerText=commentInput;
+    commentInput.value=" ";
     commentsSection.appendChild(commentAdded);
-commentInput.value=" ";
+
 });
