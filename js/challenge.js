@@ -11,7 +11,7 @@
     return setInterval(function(){
   const counter=document.getElementById("counter"),
   const countIn=parseInt(counter.innerText);
-  counter.innerText=countIn+1;
+  counter.innerText=countIn + 1;
 },1000)}
   interval=timer()
   //-------------------------------------
