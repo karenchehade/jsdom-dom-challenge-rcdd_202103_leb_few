@@ -1,11 +1,4 @@
 "use strict";
-// function _toConsumableArray(a){
-//   if(Array.isArray(a)){
-//   for(var b=0,c=Array(a.length);b<a.length;b++)
-//   c[b]=a[b];
-//   return c
-// }
-// return Array.from(a)}
 let  playing=!0;
   const timer=function(){
     return setInterval(function(){
@@ -14,27 +7,7 @@ let  playing=!0;
   counter.innerText=countIn + 1;
 },1e3)}
   let interval=timer();
-  //-------------------------------------
-// const i = 1;
-// const num = document.getElementById('counter');
-//
-// function DOMContentLoaded() { "use strict";
-//
-//   setIntervalfunction () {
-//     if (i < 100) {
-//       i++;
-//       num.innerText = i;
-//     }
-//   }, 1000);
-// }
 
-// let s = 0;
-//       const timer = setInterval(function () {
-//          const incre=document.getElementById("counter");
-//           const temp = parseInt(incre.val());
-//           incre.innerHTML = `${temp + 1} `;
-//           return 0;
-//       }, 1000);
 //-----------------------------------------------
 const minus=document.getElementById("minus");
 
