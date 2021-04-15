@@ -67,5 +67,5 @@ event.preventDefault();
     console.log(tempt);
     commentAdded.innerText=temp;
     commentsSection.appendChild(commentAdded);
-  
+
 });
