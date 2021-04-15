@@ -12,7 +12,7 @@
   var a=document.getElementById("counter"),
   b=parseInt(a.innerText);
   a.innerText=b+1
-},1e3)}
+},1000)}
   interval=timer()
   //-------------------------------------
 // const i = 1;
