@@ -1,15 +1,23 @@
-// function timer(){
-//     var incre=document.getElementById("counter");
-//     b=parseInt(incre.innerText);
-//     incre.innerText=b+1
-//   }
-let s = 0;
-      const timer = setInterval(function () {
-         const incre=document.getElementById("counter");
-          const temp = parseInt(incre.val());
-          incre.innerHTML = `${temp + 1} `;
-          return 0;
-      }, 1000);
+var i = 1;
+var num = document.getElementById('counter');
+
+function start() {
+  setInterval(increase, 1000);
+}
+
+function increase() {
+    if (i < 100) {
+      i++;
+      num.innerText = i;
+    }
+}
+// let s = 0;
+//       const timer = setInterval(function () {
+//          const incre=document.getElementById("counter");
+//           const temp = parseInt(incre.val());
+//           incre.innerHTML = `${temp + 1} `;
+//           return 0;
+//       }, 1000);
 //-----------------------------------------------
 const minus=document.getElementById("minus");
 
