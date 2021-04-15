@@ -1,7 +1,8 @@
 "use strict";
-let  pause=0;
+let  pause;
   const timer=function(){
     return setInterval(function(){
+      pause=0;
   const counter=document.getElementById("counter");
   const countIn = parseInt(counter.innerText);
   counter.innerText=countIn + 1;
