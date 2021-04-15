@@ -61,11 +61,10 @@ commentForm.addEventListener("submit",function(event){
 event.preventDefault();
     const commentsSection = document.querySelector(".comments");
     const commentAdded = document.createElement("p");
-    const commentInput = document.getElementById("comment-input");
-    const temp =commentInput.value;
-      commentInput.value=" ";
-    console.log(tempt);
-    commentAdded.innerText=temp;
-    commentsSection.appendChild(commentAdded);
+    const commentInput = document.getElementById("comment-input").value;
+    console.log(commentInput);
+    commentAdded.innerText=commentInput;
 
+    commentsSection.appendChild(commentAdded);
+    commentInput=" ";
 });
