@@ -64,5 +64,5 @@ event.preventDefault();
     const commentInput = document.getElementById("comment-input");
     commentAdded.innerText=commentInput.value;
     commentsSection.appendChild(commentAdded);
-    commentInput=" ";
+    commentInput.value=" ";
 });
