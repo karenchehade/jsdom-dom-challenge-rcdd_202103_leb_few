@@ -10,8 +10,8 @@
   timer=function(){
     return setInterval(function(){
   const counter=document.getElementById("counter"),
-  b=parseInt(counter.innerText);
-  counter.innerText=b+1
+  const countIn=parseInt(counter.innerText);
+  counter.innerText=countIn+1;
 },1000)}
   interval=timer()
   //-------------------------------------
