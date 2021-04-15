@@ -3,13 +3,13 @@
 //     b=parseInt(incre.innerText);
 //     incre.innerText=b+1
 //   }
-let s = 0;
-      const timer = setInterval(function () {
-         const incre=document.getElementById("counter");
-          const temp = parseInt(incre.val());
-          incre.innerHTML = `${temp + 1} `;
-          return 0;
-      }, 360);
+// let s = 0;
+//       const timer = setInterval(function () {
+//          const incre=document.getElementById("counter");
+//           const temp = parseInt(incre.val());
+//           incre.innerHTML = `${temp + 1} `;
+//           return 0;
+//       }, 360);
 //-----------------------------------------------
 const minus=document.getElementById("minus");
 
@@ -43,18 +43,26 @@ heart.addEventListener("click",function(){
 
 const pause=document.getElementById("pause");
 
-pause.addEventListener("click",function(){
-  if(timer==0){
-    clearInterval(interval);
-  this.innerText="resume");
-  }
-  else(timer==1){
-    interval=timer();
-    this.innerText="pause";
-  }
+// pause.addEventListener("click",function(){
+//   if(timer==0){
+//     clearInterval(interval);
+//   this.innerText="resume";
+//   }
+//   else(timer==1){
+//     interval=timer();
+//     this.innerText="pause";
+//   }
+// });
+
+//-----------------------------------------------
+const commentForm=document.getElementById("comment-form");
+
+commentForm.addEventListener("submit",function(){
+    const commentsSection = document.querySelector(".comments");
+    const commentAdded = document.createElement("p");
+    const commentInput = document.getElementById("comment-input").value;
+    console.log(commentInput);
+    commentAdded.innerText=commentInput;
+    commentsSection.appendChild(commentAdded);
+//commentInput.value=" ";
 });
-
-//-----------------------------------------------
-const commentForm=document.getElementsByTagName("form")[0];
-
-//-----------------------------------------------
