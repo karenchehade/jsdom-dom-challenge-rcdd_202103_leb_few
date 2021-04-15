@@ -42,7 +42,7 @@ heart.addEventListener("click",function(){
 const pausebtn=document.getElementById("pause");
 
 pausebtn.addEventListener("click",function(){
-  if(pause=0){
+  if(pause==0){
     clearInterval(interval);
     pausebtn.innerText="resume";
   }
