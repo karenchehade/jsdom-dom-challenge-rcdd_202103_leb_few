@@ -68,5 +68,5 @@ event.preventDefault();
     commentAdded.innerText=commentInput;
 
     commentsSection.appendChild(commentAdded);
-  
+
 });
