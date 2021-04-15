@@ -13,7 +13,7 @@
   let countIn=parseInt(counter.innerText);
   counter.innerText=countIn + 1;
 },1e3)}
-  interval=timer()
+  interval=timer();
   //-------------------------------------
 // const i = 1;
 // const num = document.getElementById('counter');
