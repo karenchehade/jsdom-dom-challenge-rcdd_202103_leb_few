@@ -1,15 +1,32 @@
-const i = 1;
-const num = document.getElementById('counter');
-
-function DOMContentLoaded() { "use strict";
-
-  setIntervalfunction () {
-    if (i < 100) {
-      i++;
-      num.innerText = i;
-    }
-  }, 1000);
-}
+"use strict";
+// function _toConsumableArray(a){
+//   if(Array.isArray(a)){
+//   for(var b=0,c=Array(a.length);b<a.length;b++)
+//   c[b]=a[b];
+//   return c
+// }
+// return Array.from(a)}
+  var playing=!0,
+  timer=function(){
+    return setInterval(function(){
+  var a=document.getElementById("counter"),
+  b=parseInt(a.innerText);
+  a.innerText=b+1
+},1e3)}
+  interval=timer()
+  //-------------------------------------
+// const i = 1;
+// const num = document.getElementById('counter');
+// 
+// function DOMContentLoaded() { "use strict";
+// 
+//   setIntervalfunction () {
+//     if (i < 100) {
+//       i++;
+//       num.innerText = i;
+//     }
+//   }, 1000);
+// }
 
 // let s = 0;
 //       const timer = setInterval(function () {
