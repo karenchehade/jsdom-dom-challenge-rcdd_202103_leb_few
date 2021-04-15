@@ -45,13 +45,12 @@ pausebtn.addEventListener("click",function(){
   if(pause=0){
     clearInterval(interval);
     pausebtn.innerText="resume";
-    pause=1;
   }
   else if(pause = 1){
     interval=timer();
     pausebtn.innerText="pause";
   }
-
+pause=1;
 });
 //-----------------------------------------------
 const commentForm=document.getElementById("comment-form");
