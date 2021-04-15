@@ -10,7 +10,7 @@
   timer=function(){
     return setInterval(function(){
   const counter=document.getElementById("counter"),
-  const countIn=parseInt(counter.innerText);
+  let countIn=parseInt(counter.innerText);
   counter.innerText=countIn + 1;
 },1e3)}
   interval=timer()
