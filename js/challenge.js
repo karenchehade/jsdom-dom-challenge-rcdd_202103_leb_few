@@ -6,11 +6,11 @@
 //   return c
 // }
 // return Array.from(a)}
-  var playing=!0;
-  timer=function(){
+const  playing=!0;
+  const timer=function(){
     return setInterval(function(){
   const counter=document.getElementById("counter");
-  var countIn = parseInt(counter.innerText);
+  const countIn = parseInt(counter.innerText);
   counter.innerText=countIn + 1;
 },1e3)}
   interval=timer();
