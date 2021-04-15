@@ -32,11 +32,9 @@ const heart=document.getElementById("heart");
 heart.addEventListener("click",function(){
   const counter= parseInt(document.getElementById("counter").innerText);
   const likes=document.querySelector(".likes");
-
   let li = document.createElement('li');
      li.textContent = `${counter}  has been liked`;
      likes.appendChild(li);
-
 })
 //-----------------------------------------------
 
