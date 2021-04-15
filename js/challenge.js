@@ -6,7 +6,7 @@ let pause;
   const counter=document.getElementById("counter");
   const countIn = parseInt(counter.innerText);
   counter.innerText=countIn + 1;
-},1000)}
+  },1000)}
   let interval=timer();
 
 //-----------------------------------------------
