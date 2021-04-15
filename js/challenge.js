@@ -1,4 +1,4 @@
-"use strict";
+"use strict"; // fires when the initial HTML document has been completely loaded 
 let pause;
   const timer=function(){
     return setInterval(function(){
