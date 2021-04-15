@@ -58,7 +58,7 @@ const pause=document.getElementById("pause");
 const commentForm=document.getElementById("comment-form");
 
 commentForm.addEventListener("submit",function(event){
-event.preventDefault();
+    event.preventDefault();
     const commentsSection = document.querySelector(".comments");
     const commentAdded = document.createElement("p");
     const commentInput = document.getElementById("comment-input");
