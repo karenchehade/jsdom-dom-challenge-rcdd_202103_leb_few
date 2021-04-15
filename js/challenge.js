@@ -62,9 +62,11 @@ event.preventDefault();
     const commentsSection = document.querySelector(".comments");
     const commentAdded = document.createElement("p");
     const commentInput = document.getElementById("comment-input").value;
+    contemp =commentInput;
+      commentInput.value=" ";
     console.log(commentInput);
     commentAdded.innerText=commentInput;
 
     commentsSection.appendChild(commentAdded);
-    commentInput.value=" ";
+  
 });
