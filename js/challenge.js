@@ -50,7 +50,7 @@ pausebtn.addEventListener("click",function(){
     interval=timer();
     pausebtn.innerText="pause";
   }
-//pause=1;
+pause=1;
 });
 //-----------------------------------------------
 const commentForm=document.getElementById("comment-form");
